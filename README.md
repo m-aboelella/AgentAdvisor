@@ -11,10 +11,15 @@ Codex and ask another Claude Code model to:
 Claude runs in `--permission-mode plan` and writes Markdown artifacts under
 `.agent-advisor/runs/`. Codex remains the only actor that edits code.
 
-## Install For Codex
+## Required Setup
 
-Prerequisites: Node.js 20 or newer, plus a locally installed and authenticated
-`claude` CLI on `PATH`.
+AgentAdvisor shells out to Claude Code through the `claude` command. Before
+using the plugin, make sure Claude Code is set up on the same machine as Codex,
+you are signed in, and `claude --version` works from your terminal.
+
+You also need Node.js 20 or newer to build and install the plugin.
+
+## Install For Codex
 
 ```bash
 npm install
