@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Use local Claude Code models as advisory reviewers and planners from Codex.",
   "author": {
-    "name": "Local developer"
+    "name": "Mohamed Aboelella"
   },
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
@@ -11,7 +11,7 @@
     "displayName": "AgentAdvisor",
     "shortDescription": "Ask Claude Code models to review or plan from Codex.",
     "longDescription": "AgentAdvisor exposes local MCP tools that invoke Claude Code in plan permission mode, write Markdown review and planning artifacts, and return those artifacts for Codex to inspect and act on.",
-    "developerName": "Local developer",
+    "developerName": "Mohamed Aboelella",
     "category": "Productivity",
     "capabilities": ["Interactive", "Review"],
     "defaultPrompt": [
