@@ -1,6 +1,6 @@
 {
   "name": "agent-advisor",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260711165452",
   "description": "Use local Claude Code models as advisory reviewers and planners from Codex.",
   "author": {
     "name": "Mohamed Aboelella"
@@ -13,7 +13,10 @@
     "longDescription": "AgentAdvisor exposes local MCP tools that invoke Claude Code in plan permission mode, write Markdown review and planning artifacts, and return those artifacts for Codex to inspect and act on.",
     "developerName": "Mohamed Aboelella",
     "category": "Productivity",
-    "capabilities": ["Interactive", "Review"],
+    "capabilities": [
+      "Interactive",
+      "Review"
+    ],
     "defaultPrompt": [
       "Ask Sonnet to review my current branch.",
       "Ask Opus to plan this change before Codex implements it.",

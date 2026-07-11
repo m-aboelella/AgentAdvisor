@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "agent-advisor": {
+      "cwd": ".",
       "command": "node",
       "args": ["./dist/mcp-server.js"]
     }
